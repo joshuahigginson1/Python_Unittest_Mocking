@@ -1,0 +1,6 @@
+flask==1.1.2
+flask-testing==0.8.0
+pytest==6.0.1
+pytest-cov==2.10.1
+requests==2.24.0
+Werkzeug==0.16.1
