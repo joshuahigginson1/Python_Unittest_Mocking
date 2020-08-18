@@ -8,7 +8,7 @@ from flask_testing import TestCase
 
 from application import app
 
-# Classes --------------------------------------------------------------
+# Test Classes ---------------------------------------------------------
 
 
 class TestBase(TestCase):
@@ -64,13 +64,3 @@ class TestResponse(TestBase):
             response = self.client.get(url_for('sport'))
             self.assertIn(b'Boxing', response.data)
 
-# Functions ------------------------------------------------------------
-
-
-# Methods --------------------------------------------------------------
-
-
-# Define Variables -----------------------------------------------------
-
-
-# Execute Code ---------------------------------------------------------
